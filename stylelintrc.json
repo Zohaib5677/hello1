@@ -19,4 +19,21 @@
     "csstree/validator": true,
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
   }
-  
+  {
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "indentation": 2,
+    "no-eol-whitespace": true,
+    "color-no-invalid-hex": true,
+    "block-no-empty": true
+  }
+  {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "indentation": 2,
+      "no-eol-whitespace": true,
+      "color-no-invalid-hex": true,
+      "block-no-empty": true
+    }
+  }
+}
